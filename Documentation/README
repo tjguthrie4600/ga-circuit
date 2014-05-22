@@ -1,0 +1,19 @@
+Instructions to run on linux (shell):
+
+1. Untar the archive
+$ tar -xvf Project01.tar
+
+2. Go into Project01
+$ cd Project01
+
+3. Run the code
+$ java designCircuit
+
+4. Follow the instructions (inputs must be valid)
+
+5. To change GA parameters open designCircuit.java, change any value under the section // GA Parameters, recompile (javac designCircuit.java), and run the code (Step 3)
+
+6. If the code is run multipe times for the same input it would be easier to run the program with the following command:
+$ java designCircuit < input     #Where input is a file with the inputs to the program 
+
+The report can be found under Project01/Documentation 
